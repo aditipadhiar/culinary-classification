@@ -3,7 +3,7 @@
 This project aims to classify culinary items using deep learning techniques, specifically leveraging the ResNet50 model. The model is trained on a dataset containing images of five different culinary items: French fries, Fried rice, Nachos, Salad, and Spaghetti. Each class has 300 images, resulting in a balanced dataset for training.
 
 ## Dataset
-The dataset used for training is obtained from Kaggle - https://www.kaggle.com/, named Food 101 - https://www.kaggle.com/datasets/kmader/food41. From this dataset, we selected five classes relevant to culinary items and extracted 300 images per class for training the model.
+The dataset used for training is obtained from Kaggle - https://www.kaggle.com/, named Food 101 - https://www.kaggle.com/datasets/kmader/food41. From this dataset, I selected five classes relevant to culinary items and extracted 300 images per class for training the model.
 
 ## Model Architecture
 The ResNet50 architecture is utilized for training the classification model. ResNet50 is a deep convolutional neural network known for its effectiveness in image classification tasks. The pre-trained weights of ResNet50 are fine-tuned on the culinary dataset to improve classification accuracy.
